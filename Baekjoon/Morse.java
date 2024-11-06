@@ -56,7 +56,6 @@ public class Morse {
 
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    int count = Integer.parseInt(br.readLine());
     String[] split = br.readLine().split(" ");
     HashMap<String, String> map = makeMorseMap();
 
@@ -64,6 +63,6 @@ public class Morse {
     for (String value : split) {
       s.append(map.get(value));
     }
-    System.out.println(s.toString());
+    System.out.println(s);
   }
 }
