@@ -16,7 +16,7 @@ public class GuessMusic {
     Map<String, String> map = new HashMap<>();
 
     for (int i = 0; i < Integer.parseInt(N[0]); i++) {
-      String input[] = br.readLine().split(" ", 2);
+      String[] input = br.readLine().split(" ", 2);
       String music = input[1];
       int musicLength = Integer.parseInt(input[0]);
 
