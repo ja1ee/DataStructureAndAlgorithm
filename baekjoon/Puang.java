@@ -17,7 +17,7 @@ public class Puang {
       String[] arr = br.readLine().split(" ");
       for (int j = 0; j < 7; j++) {
         if (arr[j].equals("-")) {
-          //continue;
+          continue;
         } else if (map.containsKey(arr[j])) {
           map.put(arr[j], map.get(arr[j]) + times(i));
         } else {
