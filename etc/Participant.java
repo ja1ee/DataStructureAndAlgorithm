@@ -8,7 +8,7 @@ public class Participant {
   public static void main(String[] args) {
     String[] participant = {"marina", "josipa", "nikola", "vinko", "filipa"};
     String[] completion = {"josipa", "filipa", "marina", "nikola"};
-    String answer;
+    String answer = "";
     Map<String, Integer> map = new HashMap<>();
 
     for (String s : participant) {
@@ -24,6 +24,8 @@ public class Participant {
         answer = entry.getKey();
       }
     }
+
+    System.out.println("answer = " + answer);
   }
 
 }
