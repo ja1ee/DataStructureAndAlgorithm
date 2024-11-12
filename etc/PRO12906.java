@@ -2,7 +2,7 @@ package etc;
 
 import java.util.*;
 
-public class P12906 {
+public class PRO12906 {
 
     public static void main(String[] args) {
         int[] arr = {1, 1, 3, 3, 0, 1, 1};
