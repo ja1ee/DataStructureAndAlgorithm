@@ -17,7 +17,6 @@ public class Assignment3 {
             }
         }
 
-        // cost
         int maxCost = 0;
 
         int length = cost.length;
